@@ -1,1 +1,24 @@
-
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello! How can I assist you today?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["how to apply", "admission process", "how to get admission"],
+      "responses": ["To apply, visit the college website and fill out the online form."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["what are the fees", "how much is the fee", "cost"],
+      "responses": ["The fees vary by course. Please check the official website for details."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": ["Goodbye! Have a great day!"]
+    }
+  ]
+}
